@@ -5,6 +5,9 @@ import { DiCssdeck } from 'react-icons/di';
 
 import { Container, Div1, Div2, Div3, NavLink, SocialIcons,Span } from './HeaderStyles';
 
+
+
+
 const Header = () =>  (
   <Container>
     <Div1>
@@ -15,6 +18,9 @@ const Header = () =>  (
       </Link>
     </Div1>
     <Div2>
+    <li>
+        <Link href="#edu"><NavLink>Education</NavLink></Link>
+        </li>
       <li>
         <Link href="#projects"><NavLink>Projects</NavLink></Link>
         </li>
@@ -24,7 +30,7 @@ const Header = () =>  (
         </Link>
         </li>
         <li>
-        <Link href="#about"><NavLink>About</NavLink></Link>
+        <Link href="#Acc"><NavLink>Accomplishment</NavLink></Link>
         </li>
     </Div2>
     <Div3>
@@ -34,6 +40,9 @@ const Header = () =>  (
         <SocialIcons href="https://www.linkedin.com/in/dilendra-uikey-579635190/">
         <AiFillLinkedin size="3rem"/> 
         </SocialIcons>
+      
+        
+        
         {/* <SocialIcons href="https://github.com/dilendrauikey8">
         <AiFillGithub size="3rem"/> 
         </SocialIcons> */}
