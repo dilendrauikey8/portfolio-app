@@ -30,6 +30,11 @@ const Header = () =>  (
         </Link>
         </li>
         <li>
+        <Link href="#course">
+          <NavLink>Courses</NavLink>
+        </Link>
+        </li>
+        <li>
         <Link href="#Acc"><NavLink>Accomplishment</NavLink></Link>
         </li>
     </Div2>

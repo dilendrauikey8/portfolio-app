@@ -16,6 +16,7 @@ const data = [
 
 const Acomplishments = () => (
  <Section id='Acc'>
+   <SectionDivider/><br/>
    <SectionTitle>
      Personal Accomplishment
    </SectionTitle>

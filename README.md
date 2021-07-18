@@ -23,14 +23,22 @@ Procedure:-
 
 
 1.Initialy i install react  app by the commonds -
-C:\Users\Your Name>npm install -g create-react-app-
+C:\Users\Your Name>npm install -g create-react-app
+
 
 2.In this step i created react app using below commands-
-C:\Users\Your Name>npx create-react-app myfirstreact-
+C:\Users\Your Name>npx create-react-app <name_of_project>
 3.After that our project starts-
- initialy i try to cover all the necessary requirements
+ initialy i created all necessary directory and sub-directory that  not created during installation.
+
  Like Education,Projects,and many more.
+
  In src Directory i created components directory and in this directory i created subdirectory that is required for our titles.
+
+
+ Means header,Education,projects,skills,
+
+
  1.styles
   in this directory i decleared all necessary css that might help in future for all subtitles like Section,SectionTitle,etc.
   also decleared default template,theme,font,adjustement.

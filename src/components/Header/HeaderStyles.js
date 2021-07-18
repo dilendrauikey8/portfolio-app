@@ -30,15 +30,16 @@ export const Span=styled.span`
    font-size=2rem;
 `;
 export const Div2 = styled.div`
-  grid-area: 1 / 2 / 2 / 4;
+  grid-area: 1 / 2 / 2 / 5;
   display: flex;
   justify-content: space-around;
+  
   @media ${(props) => props.theme.breakpoints.sm} {
     grid-area: 2 / 2 / 3 / 5;
   }
 `;
 export const Div3 = styled.div`
-  grid-area: 1 / 5 / 2 / 6;
+  grid-area: 1 / 6 / 2 / 6;
   display: flex;
   justify-content: space-around;
   align-items: center;

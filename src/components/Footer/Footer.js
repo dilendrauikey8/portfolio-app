@@ -18,7 +18,8 @@ const Footer = () => {
      <LinkTitle>
      Email
      </LinkTitle>
-     <LinkItem>dilendrauikey82178@gmail.com</LinkItem>
+     <LinkItem>dilendrauikey82178@gmail.com<br/>duikey@iitg.ac.in</LinkItem>
+     {/* <LinkItem></LinkItem> */}
      </LinkColumn>
 
      </LinkList>
