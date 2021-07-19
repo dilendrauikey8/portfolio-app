@@ -16,6 +16,10 @@ This is the web form of resume/cv like as we know in todays world many  things g
 
 
 ## USAGE
-First Clone the git repository.Go to terminal.
-###### Install necessary dependencies:
-> nsdklcnkn ndcn 
+First Clone the git repository.Go to terminal and go to cloned directory.
+   #### Install necessary dependencies:
+          $ npm i <dependencies>
+   #### Now you can run or start this project:
+          $ npm run dev     
+
+
